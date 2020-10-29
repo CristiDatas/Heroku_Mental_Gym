@@ -46,7 +46,7 @@ def main():
     
 
     #settings_file = os.path.dirname(__file__) + "\settings.json" # puede que esto sea sin barras
-    with open("settings.json", "r") as json_file_readed:
+    with open("settings/settings.json", "r") as json_file_readed:
         json_readed = json.load(json_file_readed)
 
     SERVER_RUNNING = json_readed["server_running"]
